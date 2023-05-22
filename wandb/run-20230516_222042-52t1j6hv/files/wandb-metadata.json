@@ -1,0 +1,32 @@
+{
+    "os": "macOS-13.3.1-arm64-arm-64bit",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-05-16T21:20:42.892043",
+    "startedAt": "2023-05-16T21:20:42.138892",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--save-model",
+        "--track",
+        "--capture-video"
+    ],
+    "state": "running",
+    "program": "/Users/rentianyu/Nutstore Files/PhD/PGR/2023/1. Research/1. Coding/deepRL_learn/dqn.py",
+    "codePath": "dqn.py",
+    "host": "Tianyus-MacBook-Pro.local",
+    "username": "rentianyu",
+    "executable": "/Users/rentianyu/miniforge3/envs/DeepRL/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 266.0732307434082
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

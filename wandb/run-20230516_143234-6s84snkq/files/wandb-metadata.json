@@ -1,0 +1,142 @@
+{
+    "os": "Linux-5.19.0-41-generic-x86_64-with-glibc2.35",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-05-16T13:32:35.567903",
+    "startedAt": "2023-05-16T13:32:34.848157",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--track",
+        "--capture-video"
+    ],
+    "state": "running",
+    "program": "/home/tyren/Nutstore Files/PhD/PGR/2023/1. Research/1. Coding/deepRL_learn/ppo_arari.py",
+    "codePath": "ppo_arari.py",
+    "host": "ZBook-G9",
+    "username": "tyren",
+    "executable": "/home/tyren/miniconda3/envs/DeepRL/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2396.4523999999997,
+        "min": 400.0,
+        "max": 4180.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1605.73,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2214.034,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4512.618,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2295.334,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2278.709,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2632.685,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 463.049,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3067.748,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 576.306,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1282.835,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2700.0,
+            "min": 400.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "total": 467.8895797729492,
+        "used": 135.50525283813477
+    },
+    "gpu": "NVIDIA RTX A1000 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A1000 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.272640228271484
+    }
+}
