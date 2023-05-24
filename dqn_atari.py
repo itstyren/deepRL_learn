@@ -274,7 +274,7 @@ if __name__ == "__main__":
                 # here dim=1, means selcet the action according column index
                 # squeeze() Returns a tensor with all specified dimensions of input of size 1 removed.
                 old_val = q_network(data.observations).gather(1, data.actions).squeeze()
-                # Measures the element-wise mean squared error.
+                # calculate the mean squared error (MSE) 
                 loss = F.mse_loss(td_target, old_val)
 
                 # log
