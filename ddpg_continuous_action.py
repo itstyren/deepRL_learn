@@ -9,6 +9,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from stable_baselines3.common.buffers import ReplayBuffer
 from torch.utils.tensorboard import SummaryWriter
+from gymnasium.experimental.wrappers.rendering import RecordVideoV0 as RecordVideo
 
 def parse_args():
     '''
@@ -76,6 +77,7 @@ def make_env(env_id, seed, idx, capture_video, run_name):
         if capture_video:
             if idx == 0:
                 env = gym.wrappers.RecordVideo(env, f"videos/{run_name}")
+                env = RecordVideo(env, f"videos/{run_name}")
         env.action_space.seed(seed)
         env.observation_space.seed(seed)
         return env
@@ -181,7 +183,7 @@ if __name__ == "__main__":
     q_optimizer = optim.Adam(list(qf1.parameters()), lr=args.learning_rate)
     actor_optimizer = optim.Adam(list(actor.parameters()), lr=args.learning_rate)
 
-    envs.single_observation_space.dtype = np.float64
+    envs.single_observation_space.dtype = np.float32
     # create the experience replay buffer
     # buffer_size, obs_size, action_size, device, 
     rb = ReplayBuffer(
